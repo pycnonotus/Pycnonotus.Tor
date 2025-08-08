@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Pycnonotus.Tor/1.0.0": {
+      "Pycnonotus.Tor/1.1.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
         },
@@ -24,7 +24,7 @@
     }
   },
   "libraries": {
-    "Pycnonotus.Tor/1.0.0": {
+    "Pycnonotus.Tor/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

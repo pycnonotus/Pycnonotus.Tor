@@ -8,3 +8,4 @@
 /home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.csproj.CoreCompileInputs.cache
 /home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.dll
 /home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.pdb
+/home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.sourcelink.json
