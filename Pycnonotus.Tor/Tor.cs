@@ -17,7 +17,7 @@ public class Tor<T, Other>
             throw new ArgumentException("Tor cannot be null");
         
         First = first;
-        Second = Second;
+        Second = second;
     }
     
     public static implicit operator Tor<T, Other>(T first) => new Tor<T, Other>(first, default);
