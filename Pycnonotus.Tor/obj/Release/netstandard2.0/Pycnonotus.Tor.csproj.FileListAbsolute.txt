@@ -1,0 +1,10 @@
+/home/antong/src/Tor/Pycnonotus.Tor/bin/Release/netstandard2.0/Pycnonotus.Tor.deps.json
+/home/antong/src/Tor/Pycnonotus.Tor/bin/Release/netstandard2.0/Pycnonotus.Tor.dll
+/home/antong/src/Tor/Pycnonotus.Tor/bin/Release/netstandard2.0/Pycnonotus.Tor.pdb
+/home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.csproj.AssemblyReference.cache
+/home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.GeneratedMSBuildEditorConfig.editorconfig
+/home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.AssemblyInfoInputs.cache
+/home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.AssemblyInfo.cs
+/home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.csproj.CoreCompileInputs.cache
+/home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.dll
+/home/antong/src/Tor/Pycnonotus.Tor/obj/Release/netstandard2.0/Pycnonotus.Tor.pdb

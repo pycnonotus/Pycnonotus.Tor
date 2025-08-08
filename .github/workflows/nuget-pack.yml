@@ -1,0 +1,43 @@
+name: Build and publish NuGet packages
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+    branches: [master]
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore
+        run: dotnet restore Pycnonotus.Tor.sln
+
+      - name: Build
+        run: dotnet build Pycnonotus.Tor.sln -c Release --no-restore
+
+      - name: Pack
+        run: dotnet pack Pycnonotus.Tor.sln -c Release --no-build -o ./artifacts
+
+      - name: Publish to GitHub Packages
+        run: |
+          dotnet nuget push ./artifacts/*.nupkg \
+            --skip-duplicate \
+            --api-key ${{ secrets.NUGET_API_KEY  }} \
+            --source "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
+      
+      - name: Upload packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: nuget-packages
+          path: ./artifacts/*.nupkg

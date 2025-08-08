@@ -1,0 +1,3 @@
+/home/antong/src/Tor/Pycnonotus.Tor/bin/Release/netstandard2.0/publish/Pycnonotus.Tor.dll
+/home/antong/src/Tor/Pycnonotus.Tor/bin/Release/netstandard2.0/publish/Pycnonotus.Tor.deps.json
+/home/antong/src/Tor/Pycnonotus.Tor/bin/Release/netstandard2.0/publish/Pycnonotus.Tor.pdb
