@@ -9,7 +9,7 @@
         <Description>T or Other Object abstact</Description>
         <Copyright>MIT</Copyright>
         <PackageLicenseUrl>https://choosealicense.com/licenses/mit/</PackageLicenseUrl>
-        <Version>1.2.0</Version>
+        <Version>1.2.1</Version>
     </PropertyGroup>
 
 </Project>

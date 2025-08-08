@@ -1,4 +1,6 @@
 ﻿#nullable enable
+using System;
+
 namespace Pycnontus;
 
 public class Tor<T, Other>
@@ -11,6 +13,9 @@ public class Tor<T, Other>
     
     public Tor(T? first, Other? second)
     {
+        if (first == null && second == null)
+            throw new ArgumentException("Tor cannot be null");
+        
         First = first;
         Second = Second;
     }
